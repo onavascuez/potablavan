@@ -2,11 +2,10 @@
 title: "Contacte"
 description: "Escriu-nos, ens agrada rebre correu."
 layout: contact
-draft: true                # esborrany fins que el formulari estigui connectat
 featured: "contacte.jpg"
 featuredpath: "pagines"
 featuredalt: "Una bústia"
-# emailService: ""         # adreça del servei que rep el formulari; sense això no surt el formulari
+emailService: "https://formspree.io/f/maeolzbk"   # Formspree rep el formulari i el reenvia per correu
 # contactanswertime: 48    # opcional: «Normalment responem en 48 hores.»
 ---
 

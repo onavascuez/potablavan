@@ -99,3 +99,8 @@ pluralizeListTitles = false
   identifier = "nosaltres"
   url = "nosaltres/"
   weight = 40
+[[menus.main]]
+  name = "Contacte"
+  identifier = "contacte"
+  url = "contacte/"
+  weight = 50
