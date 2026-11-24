@@ -27,7 +27,7 @@ Obre http://localhost:1313. `-D` ensenya també els esborranys (`draft: true`), 
 
 ## Escriure
 
-- Cada entrada és un fitxer Markdown dins de `content/viatges/`, `content/consells/` o `content/compres/`.
+- Cada entrada és un fitxer Markdown dins de `content/viatges/`, `content/guies/` o `content/arees-camper/`.
 - **Entrada gran de la portada:** la que porti `portada: true` a la capçalera. Per canviar-la, treu-lo d'una i posa'l a l'altra.
 - **Destacades del lateral:** les entrades que portin `destacat: true`. En surten tres, les més recents.
 - **Foto d'una entrada:** `featured: "nom.jpg"` i `featuredpath: "viatges"` a la capçalera; la foto va a `static/img/viatges/nom.jpg`. Amb `featuredalt` s'hi posa el text alternatiu.

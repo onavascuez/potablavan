@@ -5,7 +5,7 @@ description: "El que vam comprar les primeres setmanes i el que, vist ara, hauri
 draft: true          # contingut de prova: no es publica
 prova: true
 tags: ["equipament", "llista"]
-categories: ["compres"]
+categories: ["guies"]
 featured: "compres.jpg"
 featuredpath: "prova"
 featuredalt: "Imatge de prova"

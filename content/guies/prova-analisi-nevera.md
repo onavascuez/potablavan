@@ -6,7 +6,7 @@ draft: true          # contingut de prova: no es publica
 prova: true
 layout: review
 tags: ["nevera", "anàlisi"]
-categories: ["compres"]
+categories: ["guies"]
 featured: "compres.jpg"
 featuredpath: "prova"
 featuredalt: "Imatge de prova"

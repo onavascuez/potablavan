@@ -21,12 +21,12 @@ pluralizeListTitles = false
   home = ["html", "json", "rss"]
 
 [params]
-  mainSections = ["viatges", "consells", "compres"]
+  mainSections = ["viatges", "guies", "arees-camper"]
   enableCDN = false
   cssFiles = ["default"]
   jsFiles = ["default"]
   highlightjs = false
-  viewMorePostsLink = "consells"
+  viewMorePostsLink = "guies"
   readingTime = true
   imageStretch = "cover"   # les fotos omplen tot el forat (es retallen si cal)
   removeBlur = true        # sense el fons desenfocat als costats
@@ -85,14 +85,14 @@ pluralizeListTitles = false
   url = "viatges/"
   weight = 10
 [[menus.main]]
-  name = "Consells"
-  identifier = "consells"
-  url = "consells/"
+  name = "Guies i consells"
+  identifier = "guies"
+  url = "guies/"
   weight = 20
 [[menus.main]]
-  name = "Compres"
-  identifier = "compres"
-  url = "compres/"
+  name = "Àrees camper"
+  identifier = "arees-camper"
+  url = "arees-camper/"
   weight = 30
 [[menus.main]]
   name = "Nosaltres"

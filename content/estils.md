@@ -10,8 +10,8 @@ Aquesta pàgina ensenya els elements disponibles amb el tema. Serveix per decidi
 ## Plantilles
 
 - **Notícia** (la de sempre): [Bardenas Reales en camper amb nens](/viatges/prova-bardenas-reales/)
-- **Guia**, amb l'índex al costat: [Electricitat bàsica per a la camper](/consells/prova-guia-electricitat/)
-- **Anàlisi** d'un producte: [Nevera de compressor Exemple 40](/compres/prova-analisi-nevera/)
+- **Guia**, amb l'índex al costat: [Electricitat bàsica per a la camper](/guies/prova-guia-electricitat/)
+- **Anàlisi** d'un producte: [Nevera de compressor Exemple 40](/guies/prova-analisi-nevera/)
 
 ## Títols
 
@@ -73,4 +73,4 @@ hugo server -D
 
 ## Fitxa d'anàlisi
 
-La fitxa de producte, els punts a favor i en contra i la taula d'especificacions només surten a la plantilla d'anàlisi. Es veuen a l'[anàlisi de prova](/compres/prova-analisi-nevera/).
+La fitxa de producte, els punts a favor i en contra i la taula d'especificacions només surten a la plantilla d'anàlisi. Es veuen a l'[anàlisi de prova](/guies/prova-analisi-nevera/).

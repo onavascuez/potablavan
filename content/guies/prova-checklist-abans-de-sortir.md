@@ -6,7 +6,7 @@ draft: true          # contingut de prova: no es publica
 prova: true
 destacat: true
 tags: ["checklist", "seguretat"]
-categories: ["consells"]
+categories: ["guies"]
 featured: "hivern.jpg"
 featuredpath: "prova"
 featuredalt: "Imatge de prova"

@@ -7,7 +7,7 @@ draft: true          # contingut de prova: no es publica
 prova: true
 layout: guide
 tags: ["electricitat", "guia"]
-categories: ["consells"]
+categories: ["guies"]
 featured: "apps.jpg"
 featuredpath: "prova"
 featuredalt: "Imatge de prova"

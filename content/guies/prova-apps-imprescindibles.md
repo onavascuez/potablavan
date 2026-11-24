@@ -6,7 +6,7 @@ draft: true          # contingut de prova: no es publica
 prova: true
 destacat: true
 tags: ["apps", "planificació"]
-categories: ["compres"]
+categories: ["guies"]
 featured: "apps.jpg"
 featuredpath: "prova"
 featuredalt: "Imatge de prova"
