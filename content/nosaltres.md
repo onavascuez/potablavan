@@ -3,10 +3,9 @@ title: "Inici"
 date: 2024-12-27   # data de publicació a la web antiga
 description: "En el nostre periple pel món, no contemplàvem l'ús, compra o lloguer d'una furgoneta."
 portada: true        # és l'entrada gran de la portada
-# Foto pendent: Buscar la foto on sortim a Navarra corrents per les bales de palla
-featured: "inici.jpg"          # IMATGE DE PROVA. La bona: navarra-bales-palla.jpg a static/img/nosaltres/
-featuredpath: "prova"
-featuredalt: "Imatge de prova"
+featured: "bales-de-palla.jpg"
+featuredpath: "pagines"
+featuredalt: "A collibè davant d'un mur de bales de palla"
 ---
 
 En el nostre periple pel mòn, no contemplàvem l'ús, compra o lloguer d’una furgoneta.
