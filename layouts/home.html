@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{- $seccions := site.Params.mainSections }}
+  {{- /* Entrada gran de la portada: la que porti `portada: true`; si no n'hi ha, l'última de les seccions */ -}}
+  {{- $destacada := first 1 (where site.RegularPages "Params.portada" true) }}
+  {{- if not $destacada }}{{ $destacada = first 1 (where site.RegularPages "Type" "in" $seccions) }}{{ end }}
+  {{ range $destacada }}
+    {{ .Render "content-list" }}
+  {{ end }}
+
+  <div class="pv-seccions">
+    {{ range $seccions }}
+    {{ with site.GetPage (printf "/%s" .) }}
+    <article class="mini-post">
+      {{ .Render "featured" }}
+      <header>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        {{ with first 2 .RegularPagesRecursive }}
+        <ul>
+          {{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+        </ul>
+        {{ end }}
+        <a href="{{ .RelPermalink }}" class="button">{{ .Params.totes | default .Title }}</a>
+      </header>
+    </article>
+    {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

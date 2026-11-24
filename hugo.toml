@@ -1,0 +1,101 @@
+# PotablaVAN. Tema: hugo-future-imperfect-slim, des del nostre fork
+# (github.com/onavascuez/hugo-future-imperfect-slim), com a submòdul a themes/.
+baseURL = "https://potablavan.com/"
+title = "PotablaVAN"
+theme = "future-imperfect-slim"
+defaultContentLanguage = "ca"
+locale = "ca"
+pluralizeListTitles = false
+
+[pagination]
+  pagerSize = 5
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["html", "json", "rss"]
+
+[params]
+  mainSections = ["viatges", "consells", "compres"]
+  enableCDN = false
+  cssFiles = ["default"]
+  jsFiles = ["default"]
+  highlightjs = false
+  viewMorePostsLink = "consells"
+  readingTime = true
+  imageStretch = "cover"   # les fotos omplen tot el forat (es retallen si cal)
+  removeBlur = true        # sense el fons desenfocat als costats
+  socialShare = []
+  hideEmptyStats = true
+  toc = true
+  tocWords = 400
+  [params.meta]
+    description = "Viatjant en familia en camper"
+    author = "PotablaVAN"
+    favicon = false
+  [params.header]
+    navbarTitle = "PotablaVAN"
+    dynamicTitles = false   # la barra sempre diu PotablaVAN
+    searchMenu = true
+    shareMenu = false
+    languageMenu = false
+  [params.intro]
+    header = ""                   # sense el nom escrit: el logo ja el porta
+    paragraph = "Viatjant en familia en camper"
+    rssIntro = false
+    socialIntro = true
+    hideWhenSingleColumn = true   # al mòbil, el logo gran no surt…
+    alwaysOnHomepage = true       # …excepte a la portada
+    [params.intro.pic]
+      src = "img/logo-potablavan.png"
+      shape = ""
+      width = "220"
+      alt = "PotablaVAN"
+  [params.sidebar]
+    about = "Som una familia de 4, Marta, Oriol, Emma i Laia. Ens hem plantejat començar el projecte de les nostres vides, camperitzar una furgoneta MAN TGE 4x4, per voltar per tot arreu on poguem, i gaudir de l'entorn i la natura en familia."
+    postAmount = 3                  # «Últimes entrades»
+    featuredAmount = 3              # «Destacades»; 0 treu el bloc
+    featuredParam = "destacat"      # una entrada és destacada si porta `destacat: true`
+    recentExcludesFeatured = false  # true: les destacades no es repeteixen a «Últimes entrades»
+    hideViewMore = true             # sense el botó «Veure'n més»
+    aboutLink = "nosaltres/"
+    categories = false
+    categoriesByCount = false
+  [params.search]
+    # Paraules buides en català: el cercador les ignora (el tema només coneix les angleses)
+    stopWords = ["a", "al", "als", "amb", "aquest", "aquesta", "aquests", "aquestes", "com", "d", "de", "del", "dels", "des", "el", "els", "em", "en", "ens", "era", "es", "és", "et", "ha", "han", "he", "hem", "hi", "ho", "i", "ja", "l", "la", "les", "li", "m", "més", "n", "no", "o", "on", "per", "però", "perquè", "que", "què", "s", "se", "sense", "ser", "si", "són", "també", "t", "un", "una", "unes", "uns", "us", "va", "vam", "van"]
+  [params.footer]
+    rssFooter = true
+    socialFooter = true
+  [params.social]
+    instagram = "potablavan"
+  [params.utterances]
+    enabled = false
+  [params.staticman]
+    enabled = false
+
+[[menus.main]]
+  name = "Viatges"
+  identifier = "viatges"
+  url = "viatges/"
+  weight = 10
+[[menus.main]]
+  name = "Consells"
+  identifier = "consells"
+  url = "consells/"
+  weight = 20
+[[menus.main]]
+  name = "Compres"
+  identifier = "compres"
+  url = "compres/"
+  weight = 30
+[[menus.main]]
+  name = "Nosaltres"
+  identifier = "nosaltres"
+  url = "nosaltres/"
+  weight = 40

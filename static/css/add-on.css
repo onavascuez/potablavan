@@ -1,0 +1,32 @@
+/* Estils propis de PotablaVAN, a sobre del tema.
+   L'aspecte «com l'original d'HTML5 UP» ja ve del tema (el nostre fork). */
+
+/* Portada: els tres blocs de secció sota l'entrada destacada */
+.pv-seccions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5em;
+  margin: 0 1.5em 2em;
+}
+@media (min-width: 768px) {
+  .pv-seccions { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3em; margin: 0 0 3em; }
+}
+.pv-seccions .mini-post { margin: 0; display: flex; flex-direction: column; width: 100%; }
+.pv-seccions .mini-post header { display: flex; flex-direction: column; flex-grow: 1; padding: 1.25em; min-height: 4em; }
+.pv-seccions .mini-post header h2 { margin: 0; }
+.pv-seccions .mini-post header h2 { font-size: 0.9em; }
+.pv-seccions .mini-post header p {
+  margin: 0.75em 0 1em;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.6;
+}
+.pv-seccions .mini-post header ul { list-style: none; padding: 0; margin: 0 0 1em; }
+.pv-seccions .mini-post header li { padding: 0.6em 0; border-top: 1px dotted hsla(0, 0%, 63%, 0.7); }
+.pv-seccions .mini-post header li a { border-bottom: 0; }
+.pv-seccions .mini-post header .button { margin-top: auto; align-self: flex-start; }
+
+/* Logo del lateral: sencer, sense deformar */
+#site-intro img { height: auto; max-width: 100%; }
